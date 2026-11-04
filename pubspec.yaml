@@ -7,15 +7,14 @@ issue_tracker: https://github.com/RevenueCat/purchases-flutter/issues
 documentation: https://docs.revenuecat.com/docs
 
 environment:
-  sdk: ">=3.4.0 <4.0.0"
-  flutter: ">=3.22.0"
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: ">=3.19.0"
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  web: ^1.1.1
   equatable: ">=2.0.0 <4.0.0"
 
 dev_dependencies:
@@ -33,11 +32,6 @@ flutter:
         pluginClass: PurchasesFlutterPlugin
       ios:
         pluginClass: PurchasesFlutterPlugin
-      macos:
-        pluginClass: PurchasesFlutterPlugin
-      web:
-        pluginClass: PurchasesFlutterPlugin
-        fileName: web/purchases_flutter_web.dart
   assets:
     # Vendored RevenueCat web SDK (purchases-js-hybrid-mappings UMD bundle).
     # Bundled locally so it can be loaded same-origin, which is required by

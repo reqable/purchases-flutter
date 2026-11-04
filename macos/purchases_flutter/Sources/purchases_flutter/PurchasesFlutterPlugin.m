@@ -1,1 +1,0 @@
-../../../../ios/purchases_flutter/Sources/purchases_flutter/PurchasesFlutterPlugin.m

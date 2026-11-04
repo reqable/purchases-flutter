@@ -2,7 +2,7 @@ import 'customer_info_wrapper.dart';
 import 'purchases_error.dart';
 
 /// Represents the result of a web purchase redemption
-sealed class WebPurchaseRedemptionResult {
+class WebPurchaseRedemptionResult {
   const WebPurchaseRedemptionResult();
 
   factory WebPurchaseRedemptionResult.fromJson(Map<String, dynamic> json) {
